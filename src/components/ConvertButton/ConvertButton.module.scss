@@ -1,0 +1,15 @@
+.convertButton {
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(120deg, rgb(156, 81, 255), rgb(33, 137, 255));
+  margin-top: 10px;
+  color: #fff;
+  padding: 0 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
