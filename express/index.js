@@ -37,3 +37,5 @@ app.use((req, res) => {
 app.listen(5500, () => {
   console.log(`Server is listening to port: ${5500}`)
 })
+
+module.exports = app
